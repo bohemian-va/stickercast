@@ -69,9 +69,13 @@
     ]
   }
   </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://stickercast.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://stickercast.com/blog.html"},{"@type":"ListItem","position":3,"name":"How Much Does Google Ads Cost for a Medical Clinic?","item":"https://stickercast.com/blog/google-ads-cost-medical-clinic.html"}]}
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../styles.css">
   <style>
     .post-hero {
@@ -240,7 +244,7 @@
 </head>
 <body>
 
-<nav class="nav">
+<nav class="nav" id="nav">
   <div class="nav__inner">
     <a href="../index.html" class="nav__logo">
       <div class="nav__logo-mark">S</div>
@@ -254,8 +258,8 @@
       <li><a href="../contact.html">Contact</a></li>
     </ul>
     <div class="nav__cta">
-      <a href="../contact.html" class="btn btn--outline btn--sm">Log In</a>
       <a href="../contact.html" class="btn btn--primary btn--sm">Free Audit →</a>
+      <button class="nav__toggle" aria-label="Toggle menu" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
     </div>
   </div>
 </nav>
@@ -429,7 +433,7 @@
         <p>Five factors have the biggest impact on what you'll pay per click and per patient:</p>
 
         <ul>
-          <li><strong>Keyword specificity</strong> — "clinic open Sunday Calgary NE" costs less than "doctor near me" because fewer advertisers bid on it</li>
+          <li><strong>Keyword specificity</strong> — "clinic open Sunday Calgary" costs less than "doctor near me" because fewer advertisers bid on it</li>
           <li><strong>Time of day and day of week</strong> — competition drops significantly on weekends and off-peak hours</li>
           <li><strong>Quality Score</strong> — Google rewards ads that match what people are searching for with lower costs. A well-written ad for "Sunday walk-in" shown to someone searching "Sunday walk-in" gets a discount vs a generic ad</li>
           <li><strong>Geography</strong> — targeting a 3km radius around your clinic is cheaper than targeting an entire city</li>
@@ -529,7 +533,7 @@
           <div class="footer__logo-mark">S</div>
           Stickercast
         </div>
-        <p class="footer__desc">AI-powered Google Ads management for medical clinics and local service businesses across North America.</p>
+        <p class="footer__desc">AI-managed Google Ads for the health sector — medical, dental, and wellness practices across North America.</p>
       </div>
       <div>
         <div class="footer__h">Service</div>
@@ -551,9 +555,9 @@
       <div>
         <div class="footer__h">Company</div>
         <ul class="footer__links">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms</a></li>
+          <li><a href="../contact.html">Contact Us</a></li>
+          <li><span style="color:var(--text-3);font-size:0.85rem">Privacy Policy — coming soon</span></li>
+          <li><span style="color:var(--text-3);font-size:0.85rem">Terms — coming soon</span></li>
         </ul>
       </div>
     </div>
