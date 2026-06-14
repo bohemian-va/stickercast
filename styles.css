@@ -171,6 +171,15 @@ a  { color: inherit; text-decoration: none; }
 .hero__trust-item { font-size: 0.84rem; color: var(--text-3); }
 .hero__trust-item em { color: var(--text-2); font-style: normal; }
 
+/* ── Hero feature card + reusable check list ── */
+.hero-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); padding: 30px 32px; box-shadow: 0 30px 60px -30px rgba(0,0,0,0.6); }
+.hero-card__label { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-m); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.09em; color: var(--accent); margin-bottom: 22px; }
+.check-list { display: flex; flex-direction: column; gap: 20px; }
+.check-list__item { display: flex; gap: 13px; align-items: flex-start; }
+.check-list__item > .ck { color: var(--accent); font-weight: 800; font-size: 1.05rem; line-height: 1.35; flex-shrink: 0; }
+.check-list__item h5 { margin-bottom: 4px; color: var(--text); }
+.check-list__item p { font-size: 0.88rem; color: var(--text-2); line-height: 1.55; }
+
 /* ── Dashboard mockup ── */
 .dashboard { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; box-shadow: 0 30px 60px -30px rgba(0,0,0,0.6); }
 .db-head { display: flex; align-items: center; justify-content: space-between; padding: 13px 18px; border-bottom: 1px solid var(--border); background: rgba(0,0,0,0.2); }

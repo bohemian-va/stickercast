@@ -205,36 +205,38 @@
         </div>
       </div>
 
-      <!-- AI Monitoring in Hero -->
+      <!-- AI Monitoring card -->
       <div class="anim-up-2">
-        <h4 style="color:var(--text-2);font-family:var(--font-m);font-size:0.74rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:18px">Continuous AI monitoring results in</h4>
-        <div style="display:flex;flex-direction:column;gap:14px">
-          <div style="display:flex;gap:10px;align-items:flex-start">
-            <div style="color:var(--accent);font-weight:800;font-size:1.1rem;margin-top:-2px;flex-shrink:0">✓</div>
-            <div>
-              <h5 style="font-size:0.9rem;margin-bottom:2px;color:var(--text)">Zero Budget Bleed</h5>
-              <p style="font-size:0.8rem;color:var(--text-2);line-height:1.4">Paused within hours.</p>
+        <div class="hero-card">
+          <div class="hero-card__label"><span class="live-dot"></span> Continuous AI monitoring</div>
+          <div class="check-list">
+            <div class="check-list__item">
+              <span class="ck">✓</span>
+              <div>
+                <h5>Zero Budget Bleed</h5>
+                <p>Junk searches are paused within hours — before they drain your budget.</p>
+              </div>
             </div>
-          </div>
-          <div style="display:flex;gap:10px;align-items:flex-start">
-            <div style="color:var(--accent);font-weight:800;font-size:1.1rem;margin-top:-2px;flex-shrink:0">✓</div>
-            <div>
-              <h5 style="font-size:0.9rem;margin-bottom:2px;color:var(--text)">Hyper-Local Precision</h5>
-              <p style="font-size:0.8rem;color:var(--text-2);line-height:1.4">Your service radius only.</p>
+            <div class="check-list__item">
+              <span class="ck">✓</span>
+              <div>
+                <h5>Hyper-Local Precision</h5>
+                <p>Only your service radius sees your ads. No spend on distant patients.</p>
+              </div>
             </div>
-          </div>
-          <div style="display:flex;gap:10px;align-items:flex-start">
-            <div style="color:var(--accent);font-weight:800;font-size:1.1rem;margin-top:-2px;flex-shrink:0">✓</div>
-            <div>
-              <h5 style="font-size:0.9rem;margin-bottom:2px;color:var(--text)">Peak Hour Optimization</h5>
-              <p style="font-size:0.8rem;color:var(--text-2);line-height:1.4">Bids adjust hourly.</p>
+            <div class="check-list__item">
+              <span class="ck">✓</span>
+              <div>
+                <h5>Peak Hour Optimization</h5>
+                <p>Bids rise when patients search and fall during dead hours — same budget, smarter spend.</p>
+              </div>
             </div>
-          </div>
-          <div style="display:flex;gap:10px;align-items:flex-start">
-            <div style="color:var(--accent);font-weight:800;font-size:1.1rem;margin-top:-2px;flex-shrink:0">✓</div>
-            <div>
-              <h5 style="font-size:0.9rem;margin-bottom:2px;color:var(--text)">Self-Healing Keywords</h5>
-              <p style="font-size:0.8rem;color:var(--text-2);line-height:1.4">Negatives added daily.</p>
+            <div class="check-list__item">
+              <span class="ck">✓</span>
+              <div>
+                <h5>Self-Healing Keywords</h5>
+                <p>New irrelevant searches are added as negatives automatically, every day.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -244,10 +246,12 @@
 </section>
 
 <!-- ═══ COMPARISON ═══ -->
-<section class="section">
+<section class="section" style="background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
   <div class="container">
-    <div style="max-width:900px;margin:0 auto">
-      <h2 style="margin-bottom:32px;text-align:center">Stickercast vs. traditional agency</h2>
+    <div style="max-width:860px;margin:0 auto">
+      <div class="section-label text-center"><span>Side by Side</span></div>
+      <h2 style="margin-bottom:10px;text-align:center">Stickercast vs. a traditional agency</h2>
+      <p style="color:var(--text-2);text-align:center;max-width:560px;margin:0 auto 36px">Same Google Ads platform — a completely different engine, fee model, and level of attention.</p>
       <table class="ctable">
         <thead><tr><th>What you get</th><th>Agency</th><th>Stickercast</th></tr></thead>
         <tbody>
@@ -366,7 +370,10 @@
 <!-- ═══ SOLUTION ═══ -->
 <section class="section solution-bg">
   <div class="container">
-    <div style="text-align:center;padding:40px 0">
+    <div style="text-align:center;max-width:560px;margin:0 auto">
+      <div class="section-label text-center"><span>How It Works</span></div>
+      <h2 style="margin-bottom:14px">See exactly how we run your campaign</h2>
+      <p style="color:var(--text-2);margin-bottom:28px;line-height:1.7">From the first audit to a live campaign in days — then continuous, compliant optimisation. Walk through our full four-step process.</p>
       <a href="how-it-works.html" class="btn btn--primary btn--lg">How It Works — Full Walkthrough →</a>
     </div>
   </div>
@@ -517,22 +524,6 @@
 </footer>
 
 <script>
-  // Counter animation
-  function animateCounter(el, target, suffix='', decimals=0){
-    const dur=1800, start=performance.now();
-    function step(now){const p=Math.min((now-start)/dur,1);const e=1-Math.pow(1-p,3);const v=target*e;
-      el.textContent = decimals>0 ? v.toFixed(decimals)+suffix : Math.round(v).toLocaleString()+suffix;
-      if(p<1) requestAnimationFrame(step);}
-    requestAnimationFrame(step);
-  }
-  const dObs=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){
-    animateCounter(document.getElementById('imp'),1585);
-    animateCounter(document.getElementById('clk'),107);
-    animateCounter(document.getElementById('ctr'),6.8,'%',1);
-    animateCounter(document.getElementById('conv'),19);
-    dObs.disconnect();}});},{threshold:0.3});
-  const dash=document.querySelector('.dashboard'); if(dash) dObs.observe(dash);
-
   // FAQ accordion
   document.querySelectorAll('.faq-item').forEach(item=>{
     item.addEventListener('click',()=>{
