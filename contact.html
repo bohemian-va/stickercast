@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Free Google Ads Audit for Medical & Dental Clinics | Stickercast</title>
-  <meta name="description" content="Book a free Google Ads audit for your medical or dental clinic. We'll show you exactly what's wasting spend and what an optimised, compliant campaign would look like — in 3 business days.">
+  <title>Book a Free Audit — Stickercast</title>
+  <meta name="description" content="Get a free Google Ads audit for your practice. We'll show you exactly what's wasting spend and how to fix it in 3 days.">
   <!-- Canonical -->
   <link rel="canonical" href="https://stickercast.com/contact.html">
 
@@ -35,19 +35,23 @@
     "offers": {
       "@type": "AggregateOffer",
       "lowPrice": "299",
-      "highPrice": "1100",
+      "highPrice": "899",
       "priceCurrency": "USD",
       "offerCount": "3"
     }
   }
   </script>
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://stickercast.com/"},{"@type":"ListItem","position":2,"name":"Free Audit","item":"https://stickercast.com/contact.html"}]}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18245341521"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-18245341521');
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <style>
 
@@ -272,7 +276,7 @@
 <body>
 
 <!-- ═══════════════════════ NAV ═══════════════════════ -->
-<nav class="nav" id="nav">
+<nav class="nav">
   <div class="nav__inner">
     <a href="index.html" class="nav__logo">
       <div class="nav__logo-mark">S</div>
@@ -287,7 +291,6 @@
     </ul>
     <div class="nav__cta">
       <a href="contact.html" class="btn btn--primary btn--sm">Free Audit →</a>
-      <button class="nav__toggle" aria-label="Toggle menu" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
     </div>
   </div>
 </nav>
@@ -369,7 +372,7 @@
               </div>
               <div class="form-group">
                 <label>Phone number</label>
-                <input type="tel" name="phone" placeholder="(825) 760-2918">
+                <input type="tel" name="phone" placeholder="(403) 555-0100">
               </div>
             </div>
 
@@ -530,7 +533,7 @@
             <div style="width:36px;height:36px;border-radius:var(--r-sm);background:rgba(0,217,166,0.15);display:flex;align-items:center;justify-content:center;font-size:1rem">🏥</div>
             <div>
               <div style="font-size:0.82rem;font-weight:600;color:var(--text)">e.g. Downtown Dental, Westside Physio</div>
-              <div style="font-size:0.75rem;color:var(--text-3)">Walk-in Primary Care · Calgary</div>
+              <div style="font-size:0.75rem;color:var(--text-3)">Walk-in Primary Care · NE Calgary</div>
             </div>
           </div>
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px">
@@ -557,13 +560,17 @@
   <div class="container">
     <p>Prefer to reach out directly? We're quick to respond.</p>
     <div class="alt-methods">
-      <a href="mailto:info@stickercast.com" class="alt-method">
+      <a href="mailto:hello@stickercast.com" class="alt-method">
         <span class="alt-method__icon">✉</span>
-        info@stickercast.com
+        hello@stickercast.com
       </a>
-      <a href="tel:+18257602918" class="alt-method">
+      <a href="tel:+14035550100" class="alt-method">
         <span class="alt-method__icon">📞</span>
-        (825) 760-2918
+        (403) 555-0100
+      </a>
+      <a href="mailto:hello@stickercast.com" class="alt-method">
+        <span class="alt-method__icon">💬</span>
+        Chat with us
       </a>
     </div>
     <p style="margin-top:24px;font-size:0.8rem">Founded in Calgary · Serving clinics across North America</p>
@@ -581,7 +588,7 @@
         </div>
         <p class="footer__desc">AI-managed Google Ads for the health sector — medical, dental, and wellness practices across North America.</p>
         <div style="margin-top:20px;display:flex;gap:12px">
-          <a href="mailto:info@stickercast.com" style="font-size:0.8rem;color:var(--accent)">info@stickercast.com</a>
+          <a href="mailto:hello@stickercast.com" style="font-size:0.8rem;color:var(--accent)">hello@stickercast.com</a>
         </div>
       </div>
       <div>
@@ -663,6 +670,12 @@
         form.style.display = 'none';
         document.getElementById('formSuccess').style.display = 'block';
         window.scrollTo({ top: document.querySelector('.form-card').offsetTop - 100, behavior: 'smooth' });
+        // Google Ads conversion tracking
+        gtag('event', 'conversion', {
+          'send_to': 'AW-18245341521/oXm5CO_Tv8AcENGih_xD',
+          'value': 1.0,
+          'currency': 'CAD'
+        });
       } else {
         btn.textContent = '⚠ Something went wrong — try again';
         btn.disabled = false;
