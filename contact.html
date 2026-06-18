@@ -617,6 +617,13 @@
       });
 
       if (response.ok) {
+        // Fire Google conversion tag
+        gtag('event', 'conversion', {
+          'send_to': 'AW-18245341521/oXm5CO_Tv8AcENGih_xD',
+          'value': 1.0,
+          'currency': 'CAD'
+        });
+        
         form.style.display = 'none';
         document.getElementById('formSuccess').style.display = 'block';
         window.scrollTo({ top: document.querySelector('.form-card').offsetTop - 100, behavior: 'smooth' });
