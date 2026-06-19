@@ -320,6 +320,7 @@
 
           <!-- Form -->
           <form id="auditForm" action="https://formspree.io/f/xqeozzoq" method="POST" novalidate>
+            <input type="hidden" name="_next" value="https://stickercast.com/form-success.html">
 
             <div style="margin-bottom:20px">
               <div class="badge badge--subtle" style="font-size:0.75rem">Section 1 of 3 — Your clinic</div>
@@ -617,13 +618,6 @@
       });
 
       if (response.ok) {
-        // Fire Google conversion tag
-        gtag('event', 'conversion', {
-          'send_to': 'AW-18245341521/oXm5CO_Tv8AcENGih_xD',
-          'value': 1.0,
-          'currency': 'CAD'
-        });
-        
         form.style.display = 'none';
         document.getElementById('formSuccess').style.display = 'block';
         window.scrollTo({ top: document.querySelector('.form-card').offsetTop - 100, behavior: 'smooth' });
