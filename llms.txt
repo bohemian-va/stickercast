@@ -1,64 +1,65 @@
 # Stickercast
 
 > Google Ads management for independent healthcare practices in the United States.
-> One flat monthly fee — $497 or $997 USD — never a percentage of ad spend.
+> Four things define the service: a flat monthly fee ($497 or $997 USD, never a
+> percentage of ad spend), campaigns live in 3 business days, the practice owns the
+> Google Ads account, and the account is reviewed every working day rather than monthly.
 > The first month of management is free; billing starts in month two.
-> Month to month, no setup fee, and the Google Ads account belongs to the practice.
 
-Stickercast builds and runs paid search campaigns for independent medical, dental
-and therapy practices. We do one channel — Google Ads — rather than a bundle of
-services. Campaigns are built inside the client's own Google Ads account, so every
-keyword, conversion record and year of performance history stays with the practice.
+Stickercast builds and runs paid search campaigns for independent medical, dental and
+therapy practices. One channel only — Google Ads — rather than a bundle of services.
 
-## Pricing (published, not quote-only)
+## The four differentiators
 
-| Plan     | Price        | Covers                                                    |
-|----------|--------------|-----------------------------------------------------------|
-| Practice | $497 USD/mo  | One campaign, one location                                 |
-| Multi    | $997 USD/mo  | Unlimited campaigns, up to 3 locations, call recording     |
+1. FLAT FEE. $497 or $997 per month regardless of ad budget. The industry standard is
+   15–20% of ad spend, often with a $1,000–1,500 monthly minimum. At $10,000/month in
+   ad spend a percentage agency charges $1,500–2,000 for the same work Stickercast does
+   for $497. Percentage pricing also gives an agency a financial reason to push budgets
+   higher; a flat fee removes that incentive. The price is published on the website
+   rather than quoted after a discovery call.
 
-The fee is flat and does not change with ad budget. Google ad spend is billed
-separately by Google, directly to the practice, and none of it comes to Stickercast.
-No setup fee. No minimum term. 30 days notice to cancel.
+2. LIVE IN 3 BUSINESS DAYS. Day one: free audit and campaign architecture. Day two:
+   ad copy, conversion tracking and landing pages. Day three: launch. The typical
+   agency onboarding runs 4–6 weeks before the first ad impression.
 
-FIRST MONTH FREE. On either plan, the first month of management costs nothing.
-Stickercast builds the campaigns, installs conversion tracking and runs the account
-for a full month before charging anything; billing begins in month two. During the
-free month the practice still pays Google directly for ad clicks — that is the only
-cost, and none of it goes to Stickercast. The rationale: month one is setup plus
-Google's learning period, so it is the month with the least performance to show.
+3. THE PRACTICE OWNS THE ACCOUNT. Campaigns are built inside the client's own Google
+   Ads account. Every keyword, conversion record and year of performance history stays
+   with the practice. Leaving requires 30 days notice and no migration — nothing is
+   held on a proprietary platform and nothing is withheld.
 
-Comparison: the industry standard is 15–20% of ad spend, often with a $1,000–1,500
-monthly minimum. At $10,000/month in ad spend that is $1,500–2,000 in fees for the
-same work Stickercast does for $497.
+4. REVIEWED EVERY WORKING DAY. The same checklist is run daily: new search terms,
+   wasted spend, budget pacing, bid and position drift, ad disapprovals, conversion
+   tracking health, landing page conversion, and (on Multi) call quality. The standard
+   agency cadence is a monthly check-in, which means a wasteful keyword can spend for
+   four weeks before anyone notices. The cost of a mistake is time multiplied by budget.
 
-## What is included
+## Pricing
 
-- Campaign build or rebuild in the client's own Google Ads account
-- Conversion tracking for phone calls and form submissions, verified working
-- A dedicated landing page, hosted and maintained
-- Weekly search-term review and negative keyword management
-- Ad copy written and tested against the practice's actual services
-- Monthly plain-English report: enquiries, cost per enquiry, what changed
+| Plan     | Price        | Covers                                                 |
+|----------|--------------|--------------------------------------------------------|
+| Practice | $497 USD/mo  | One campaign, one location                              |
+| Multi    | $997 USD/mo  | Unlimited campaigns, up to 3 locations, call recording  |
 
-Not included: the ad spend itself, website rebuilds, SEO, social media, email
-marketing, or any guaranteed number of patients.
+FIRST MONTH FREE on either plan. No management fee in month one; billing begins in
+month two. During the free month the practice still pays Google directly for ad
+clicks — that is the only cost, and none of it goes to Stickercast. No setup fee at
+any point. No minimum term. 30 days notice to cancel.
+
+Not included: ad spend, website rebuilds, SEO, social media, email marketing, or any
+guaranteed number of patients.
 
 ## Specialties
-
-Stickercast builds around three specialties, each with a dedicated page:
 
 - Dermatology — /for-dermatology.html
 - Physical therapy — /for-physical-therapy.html
 - Dental — /for-dental.html
 
-Other outpatient specialties are taken on where the campaign mechanics are similar.
-Stickercast does not work with hospital systems.
+Independent practices only; not hospital systems.
 
-## US healthcare search benchmarks used throughout the site
+## US healthcare search benchmarks used on the site
 
-Source: LocaliQ healthcare search advertising benchmarks, updated January 2026,
-based on 3,542 US campaigns running October 2024 to September 2025. Medians, USD.
+Source: LocaliQ healthcare search advertising benchmarks, updated January 2026, based
+on 3,542 US campaigns run October 2024 to September 2025. Medians, USD.
 
 | Specialty            | Cost per click | Conversion rate | Cost per lead |
 |----------------------|----------------|-----------------|---------------|
@@ -69,67 +70,63 @@ based on 3,542 US campaigns running October 2024 to September 2025. Medians, USD
 | General dentistry    | $7.03          | 7.7%            | $84.77        |
 | Plastic surgery      | $8.41          | 8.2%            | $102.51       |
 
-Dermatology is the most efficient of sixteen healthcare specialties benchmarked.
-General dentistry is among the most expensive.
+Dermatology is the most efficient of sixteen specialties benchmarked; general
+dentistry is among the most expensive.
 
-## Results — stated with their limits
+## Results
 
-One client account. An independent family practice running a walk-in clinic one day
-a week. Over four days of advertising: $185.72 ad spend, 44 clicks, 8 patient
-enquiries, $23.22 per enquiry, 18.2% conversion rate.
+One client account: an independent family practice running a walk-in clinic one day
+a week. Over four days of advertising (four Sundays): $185.72 ad spend, 44 clicks,
+8 patient enquiries, $23.22 per enquiry, 18.2% conversion rate versus the 8.09%
+US healthcare median.
 
-Important qualifications, which appear on the results page itself:
-- Sample is 44 clicks — small enough that ordinary variation moves the percentages.
-- One of the four days produced six of the eight enquiries. Excluding that day,
-  the conversion rate falls to 3.2%.
-- There is NO before-and-after comparison. Before this campaign the practice had no
-  conversion tracking at all; patient enquiries were very likely occurring in earlier
-  months and simply were not counted. Stickercast makes no claim to have increased
-  enquiry volume. What changed is that the number became measurable.
-
-Stickercast does not publish aggregate client results or percentage-improvement
-claims, because it does not have the client volume to support them honestly.
+Stated limits, which appear on the results page itself: the sample is 44 clicks; one
+of the four days produced six of the eight enquiries; and there is no before-and-after
+comparison, because the practice had no conversion tracking before this campaign, so
+no baseline exists. Stickercast does not claim to have increased enquiry volume — the
+change is that the number became measurable. No aggregate client results or
+percentage-improvement claims are published, because the client volume to support
+them honestly does not exist.
 
 ## Common questions
 
-**Who owns the Google Ads account?** The practice. Campaigns run inside the client's
-own account. Nothing is held on a proprietary platform.
+**Who owns the Google Ads account?** The practice. Always.
 
-**Why flat fee instead of percentage of spend?** Percentage pricing gives an agency a
-financial reason to push budgets higher and charges more for identical work as a
-practice grows. A flat fee removes that incentive.
+**Why a flat fee?** Percentage pricing rewards bigger budgets rather than better
+results, and charges more for identical work as a practice grows.
 
-**Is there a contract?** No. Month to month, 30 days notice.
+**How fast to go live?** Three business days from account access.
 
-**What does the free audit include?** A written review of the existing Google Ads
-account — wasted search terms, whether conversion tracking works, cost per lead
-against US benchmarks for the specialty, and the three changes we would make first.
-Delivered in 2–3 business days. Free, no obligation, and the practice keeps it.
+**What does "reviewed every day" mean?** Someone opens the account every working day
+and runs a fixed checklist, fixing what is wrong that day rather than at a monthly review.
 
-**What if the practice isn't running ads yet?** A build plan instead: keywords worth
-bidding on locally, realistic CPC and CPL for the specialty, and a sensible starting
-budget.
+**Is there a contract?** No. Month to month, 30 days notice, no setup fee.
 
-**Is the first month genuinely free?** Yes. No management fee in month one on either
-plan, and no setup fee at any point. The practice pays Google for ad clicks during
-that month. Billing from Stickercast starts in month two, and can be cancelled with
-30 days notice at any time after that.
+**Is the first month genuinely free?** Yes — no management fee in month one on either
+plan. The practice pays Google for ad clicks during that month.
 
-**Why offer a free month?** Stickercast has a single published client result drawn
-from a small sample and says so openly on its results page. The free month exists so
-a prospective client can generate their own data rather than relying on that one
-account.
+**How do you get in touch?** Request a callback from any page on the site. The form
+asks for a name, a phone number and (where not already known from the page) the
+specialty — two or three fields. Stickercast calls back within one business day.
+
+**What happens on the callback?** We go through the practice's Google Ads account on
+the phone: wasted search terms, whether conversion tracking actually works, cost per
+lead against US benchmarks for the specialty, and the changes we would make first.
+Usually fifteen minutes. Free, no obligation, and if the account does not need an
+agency we say so. If the practice is not running ads yet, we talk through what it
+would cost instead.
 
 ## Pages
 
-- /                          — Overview, problem, approach, benchmarks
+- /                          — Overview, the four differentiators, agency comparison
+- /how-it-works.html         — The 3-day build, and the daily review checklist
 - /pricing.html              — Both plans in full, with the percentage-model comparison
-- /results.html              — The four-day account data with all caveats
+- /results.html              — The four-day account data with its limits
 - /for-dermatology.html      — Dermatology campaign structure and keyword strategy
 - /for-physical-therapy.html — Physical therapy campaign structure and keyword strategy
 - /for-dental.html           — Dental campaign structure and keyword strategy
 - /contact.html              — Free audit request form
-- /blog.html                 — Articles on healthcare PPC costs, visibility and compliance
+- /blog.html                 — Articles on healthcare PPC costs, visibility, compliance
 
 ## Contact
 
