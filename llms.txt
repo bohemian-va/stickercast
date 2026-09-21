@@ -122,6 +122,7 @@ would cost instead.
 - /how-it-works.html         — The 3-day build, and the daily review checklist
 - /pricing.html              — Both plans in full, with the percentage-model comparison
 - /results.html              — The four-day account data with its limits
+- /specialties.html          — Overview of all three specialties, side by side
 - /for-dermatology.html      — Dermatology campaign structure and keyword strategy
 - /for-physical-therapy.html — Physical therapy campaign structure and keyword strategy
 - /for-dental.html           — Dental campaign structure and keyword strategy
