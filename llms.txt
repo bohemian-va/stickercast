@@ -53,6 +53,13 @@ guaranteed number of patients.
 - Dermatology — /for-dermatology.html
 - Physical therapy — /for-physical-therapy.html
 - Dental — /for-dental.html
+- Family & primary care — /for-family-practice.html (shown with a real client account,
+  not an industry median — see Results, below)
+- Ophthalmology & optometry — /for-ophthalmology.html
+
+Other outpatient specialties (chiropractic, med spas, urgent care, and similar) are
+taken on where the campaign mechanics are similar, but have no dedicated page and no
+published benchmark — fit and numbers are worked out on a free callback instead.
 
 Independent practices only; not hospital systems.
 
@@ -71,7 +78,9 @@ on 3,542 US campaigns run October 2024 to September 2025. Medians, USD.
 | Plastic surgery      | $8.41          | 8.2%            | $102.51       |
 
 Dermatology is the most efficient of sixteen specialties benchmarked; general
-dentistry is among the most expensive.
+dentistry is among the most expensive. No LocaliQ line exists specifically for family
+and primary care, which is why that page shows one real client account instead of a
+specialty-median benchmark.
 
 ## Results
 
@@ -122,11 +131,13 @@ would cost instead.
 - /how-it-works.html         — The 3-day build, and the daily review checklist
 - /pricing.html              — Both plans in full, with the percentage-model comparison
 - /results.html              — The four-day account data with its limits
-- /specialties.html          — Overview of all three specialties, side by side
+- /specialties.html          — Overview of all five specialties, side by side
 - /for-dermatology.html      — Dermatology campaign structure and keyword strategy
 - /for-physical-therapy.html — Physical therapy campaign structure and keyword strategy
 - /for-dental.html           — Dental campaign structure and keyword strategy
-- /contact.html              — Free audit request form
+- /for-family-practice.html  — Family & primary care, shown via a real client account
+- /for-ophthalmology.html    — Ophthalmology & optometry campaign structure and keywords
+- /contact.html              — Callback request form
 - /blog.html                 — Articles on healthcare PPC costs, visibility, compliance
 
 ## Contact
@@ -134,4 +145,4 @@ would cost instead.
 info@stickercast.com
 https://stickercast.com/contact.html
 
-Last updated: 2026-09-20
+Last updated: 2026-09-21
