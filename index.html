@@ -235,26 +235,47 @@
       </div>
 
       <div class="anim-up-2">
-        <div class="hero-card">
-          <h3 style="font-size:1.24rem;margin-bottom:26px">What daily account review<em> actually catches.</em></h3>
-          <div class="check-list">
-            <div class="check-list__item"><span class="ck">&#10003;</span><div>
-              <h4>Wasted search terms, killed in a day</h4>
-              <p>"Free clinic", "dentist salary", job seekers, competitor names. On a monthly cadence these spend for four weeks before anyone sees them. We add negatives daily.</p>
-            </div></div>
-            <div class="check-list__item"><span class="ck">&#10003;</span><div>
-              <h4>Tracking that quietly broke</h4>
-              <p>A website update strips the conversion tag and the account keeps bidding blind. We verify tracking fires every day, so a break is caught in hours, not at the next review.</p>
-            </div></div>
-            <div class="check-list__item"><span class="ck">&#10003;</span><div>
-              <h4>Budget burning before your busy hours</h4>
-              <p>Daily budgets exhausted by 11am mean your best-converting afternoon searches never see your ad. Pacing gets checked and adjusted continuously.</p>
-            </div></div>
-            <div class="check-list__item"><span class="ck">&#10003;</span><div>
-              <h4>Ads disapproved without warning</h4>
-              <p>Healthcare ads get flagged for wording no one expected. A disapproved ad is a dead campaign until someone notices. We see it the same day and fix it.</p>
-            </div></div>
-          </div>
+        <div class="cbcard">
+          <div class="cbcard__free">Free &middot; No obligation</div>
+          <h3>See what your ad account is actually doing</h3>
+          <p class="cbcard__sub">We'll call you back within one business day and go through your Google Ads account with you — free, and no obligation whatever you decide.</p>
+          <form class="cbform" id="home-hero" action="https://formspree.io/f/xqeozzoq" method="POST">
+            <div class="cbrow">
+              <div class="field">
+                <label for="home-hero-name">Your name <span>*</span></label>
+                <input type="text" id="home-hero-name" name="name" required autocomplete="name" placeholder="Dr. Jane Smith">
+              </div>
+              <div class="field">
+                <label for="home-hero-practice">Practice name <span>*</span></label>
+                <input type="text" id="home-hero-practice" name="practice" required autocomplete="organization" placeholder="Smith Family Dermatology">
+              </div>
+            </div>
+            <div class="field">
+              <label for="home-hero-phone">Phone number <span>*</span></label>
+              <input type="tel" id="home-hero-phone" name="phone" required autocomplete="tel" inputmode="tel" placeholder="(555) 123-4567">
+            </div>
+            <div class="field">
+              <label for="home-hero-spec">Your specialty <span>*</span></label>
+              <select id="home-hero-spec" name="specialty" required>
+                <option value="">Select one&hellip;</option><option>Dermatology</option><option>Physical therapy / rehab</option><option>Dental</option><option>Family practice / primary care</option><option>Ophthalmology / optometry</option><option>Chiropractic</option><option>Med spa / aesthetics</option><option>Other</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="home-hero-time">Best time to call</label>
+              <select id="home-hero-time" name="best_time">
+                <option>Anytime during business hours</option>
+                <option>Morning</option>
+                <option>Afternoon</option>
+                <option>Early evening</option>
+              </select>
+            </div>
+            <input type="hidden" name="came_from" value="Homepage hero">
+            <input type="hidden" class="refField" name="referrer" value="">
+            <input type="text" name="_gotcha" style="display:none">
+            <button type="submit" class="btn btn--primary btn--block btn--lg">Request My Callback &rarr;</button>
+            <div class="form-status"></div>
+            <p class="cbcard__fine">No cost, no obligation. We use your number to call you about your ad account and <b>nothing else</b> &mdash; no list, no resale, no automated sequence.</p>
+          </form>
         </div>
       </div>
     </div>
@@ -262,6 +283,36 @@
 </section>
 
 <section class="section section--alt">
+  <div class="container">
+    <div class="sec-head sec-head--center">
+      <div class="section-label"><span>Daily review</span></div>
+      <h2>What daily account review actually catches</h2>
+      <p>Four things that quietly cost practices money &mdash; and how long each one survives on the standard monthly check-in.</p>
+    </div>
+    <div class="hero-card" style="max-width:860px;margin:0 auto">
+      <div class="check-list">
+        <div class="check-list__item"><span class="ck">&#10003;</span><div>
+          <h4>Wasted search terms, killed in a day</h4>
+          <p>"Free clinic", "dentist salary", job seekers, competitor names. On a monthly cadence these spend for four weeks before anyone sees them. We add negatives daily.</p>
+        </div></div>
+        <div class="check-list__item"><span class="ck">&#10003;</span><div>
+          <h4>Tracking that quietly broke</h4>
+          <p>A website update strips the conversion tag and the account keeps bidding blind. We verify tracking fires every day, so a break is caught in hours, not at the next review.</p>
+        </div></div>
+        <div class="check-list__item"><span class="ck">&#10003;</span><div>
+          <h4>Budget burning before your busy hours</h4>
+          <p>Daily budgets exhausted by 11am mean your best-converting afternoon searches never see your ad. Pacing gets checked and adjusted continuously.</p>
+        </div></div>
+        <div class="check-list__item"><span class="ck">&#10003;</span><div>
+          <h4>Ads disapproved without warning</h4>
+          <p>Healthcare ads get flagged for wording no one expected. A disapproved ad is a dead campaign until someone notices. We see it the same day and fix it.</p>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
   <div class="container">
     <div class="sec-head sec-head--center">
       <div class="section-label"><span>Side by side</span></div>
@@ -285,7 +336,7 @@
   </div>
 </section>
 
-<section class="section" id="why">
+<section class="section section--alt" id="why">
   <div class="container">
     <div class="sec-head">
       <div class="section-label"><span>Why we're different</span></div>
@@ -323,6 +374,58 @@
       </div>
 
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="sec-head sec-head--center">
+      <div class="section-label"><span>Pricing</span></div>
+      <h2>Published up front. No discovery call to find out the number.</h2>
+      <p>Two plans, both flat, neither one a percentage of your ad spend. The first month of management is free on either &mdash; billing starts in month two.</p>
+    </div>
+    <div class="price-grid">
+      <div class="plan">
+        <div class="plan__name">Practice</div>
+        <div class="plan__for">Single location, one service line</div>
+        <div class="plan__free">First month free</div>
+        <div class="plan__amt"><sup>$</sup>497<span>/month</span></div>
+        <div class="plan__note">Flat. Never changes with your ad budget.</div>
+        <div class="plan__divider"></div>
+        <a href="contact.html?plan=practice" class="btn btn--outline btn--block btn--lg">Request a Callback</a>
+        <ul>
+          <li><b>1 active campaign</b> in your own Google Ads account</li>
+          <li><b>Live in 3 business days</b> from account access</li>
+          <li><b>Daily account review</b> &mdash; search terms, spend, pacing, disapprovals</li>
+          <li><b>Conversion tracking</b> for calls and forms, verified working</li>
+          <li><b>1 dedicated landing page</b>, hosted and maintained by us</li>
+          <li class="no">Multiple campaigns or locations</li>
+          <li class="no">Call recording and review</li>
+        </ul>
+        <div class="plan__fine">First month free &middot; No setup fee &middot; No contract &middot; You own the account</div>
+      </div>
+
+      <div class="plan plan--feature">
+        <div class="plan__ribbon">Most practices</div>
+        <div class="plan__name">Multi</div>
+        <div class="plan__for">Multiple service lines or up to 3 locations</div>
+        <div class="plan__free">First month free</div>
+        <div class="plan__amt"><sup>$</sup>997<span>/month</span></div>
+        <div class="plan__note">Flat. Never changes with your ad budget.</div>
+        <div class="plan__divider"></div>
+        <a href="contact.html?plan=multi" class="btn btn--primary btn--block btn--lg">Request a Callback</a>
+        <ul>
+          <li><b>Unlimited campaigns</b> &mdash; each service line gets its own budget</li>
+          <li><b>Up to 3 locations</b>, each with its own targeting and landing page</li>
+          <li><b>Live in 3 business days</b> from account access</li>
+          <li><b>Daily account review</b> across every campaign</li>
+          <li><b>Call recording and review</b> &mdash; hear which ads produce real patients</li>
+          <li><b>Landing page per service line</b>, not one page doing four jobs</li>
+        </ul>
+        <div class="plan__fine">First month free &middot; No setup fee &middot; No contract &middot; You own the account</div>
+      </div>
+    </div>
+    <p style="font-size:0.82rem;color:var(--text-4);margin-top:22px;line-height:1.65;text-align:center">Your Google ad spend is billed separately by Google, straight to your card &mdash; including during the free first month. None of it comes to us. <a href="pricing.html" style="color:var(--accent)">Full pricing detail and exclusions &rarr;</a></p>
   </div>
 </section>
 
