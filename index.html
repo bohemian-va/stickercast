@@ -195,6 +195,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<style>
+.spec-links{margin-top:30px;padding-top:22px;border-top:1px solid var(--line-soft)}
+.spec-links__label{font-family:var(--mono);font-size:0.7rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--text-4);margin-bottom:12px}
+.spec-links__row{display:flex;flex-wrap:wrap;gap:9px}
+.spec-links__row a{display:inline-flex;align-items:center;gap:7px;font-size:0.845rem;font-weight:500;color:var(--text-1);
+  background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:7px 14px;transition:.16s}
+.spec-links__row a::after{content:"\2192";color:var(--accent);font-size:0.8rem}
+.spec-links__row a:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-dim)}
+</style>
 </head>
 <body>
 <nav class="nav" id="nav">
@@ -231,6 +240,17 @@
           <div class="hero__trust-item"><em>Live in 3 days</em></div>
           <div class="hero__trust-item"><em>No lock-in</em></div>
           <div class="hero__trust-item"><em>Your account, always</em></div>
+        </div>
+        <div class="spec-links anim-up-4">
+          <div class="spec-links__label">Google Ads by specialty</div>
+          <div class="spec-links__row">
+            <a href="for-dermatology.html">Dermatology</a>
+            <a href="for-physical-therapy.html">Physical Therapy</a>
+            <a href="for-dental.html">Dental</a>
+            <a href="for-family-practice.html">Family &amp; Primary Care</a>
+            <a href="for-ophthalmology.html">Ophthalmology &amp; Optometry</a>
+            <a href="for-medical-spas.html">Medical Spas</a>
+          </div>
         </div>
       </div>
 
